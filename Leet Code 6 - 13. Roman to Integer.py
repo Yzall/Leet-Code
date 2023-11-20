@@ -48,7 +48,7 @@ class Solution(object):
             if value < prev_value:
                 result -= value
 
-              # Otherwise, add it to the result  
+            # Otherwise, add it to the result  
             else:
                 result += value
 
