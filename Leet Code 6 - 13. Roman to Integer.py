@@ -47,8 +47,9 @@ class Solution(object):
             # If the current value is less than the previous value, subtract it
             if value < prev_value:
                 result -= value
+
+              # Otherwise, add it to the result  
             else:
-                # Otherwise, add it to the result
                 result += value
 
             # Update the previous value for the next iteration
